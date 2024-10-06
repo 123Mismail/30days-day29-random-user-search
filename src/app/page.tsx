@@ -1,17 +1,10 @@
+import RandomUser from "@/components/randomUserGenerator"
 
  
- 
-import CircularShapes from '@/components/circularShapes'
-import StopWatch from '@/components/StopWatch'
- 
- 
-
 const Page = () => {
   return (
     <div>
-       <CircularShapes/>
-   {/* <StopWatch/> */}
-  
+       <RandomUser/>
     </div>
   )
 }
